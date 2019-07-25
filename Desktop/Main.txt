@@ -9,6 +9,7 @@ public class Main {
         int search=0;
         int current=0;
         int add=0;
+int number;
        Car car=new Car();
         Scanner sc= new Scanner(System.in);
         car.printMenuHello();
