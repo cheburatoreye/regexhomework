@@ -1,0 +1,28 @@
+package com.company;
+
+public class Car {
+    void printMenuHello(){
+        System.out.println("Main menu");
+        System.out.println("1-Search menu");
+        System.out.println("2-Add to database by number");
+        System.out.println("3-Redact by VIN");
+        System.out.println("4-Delete by VIN");
+        System.out.println("0-Back");
+    }
+    void printMenuSearch(){
+
+        System.out.println("1-Search by VIN");
+        System.out.println("2-Search by Number");
+        System.out.println("7-Redact by VIN");
+        System.out.println("0-Back");
+    }
+    void printMenu(){
+        System.out.println("Main menu");
+        System.out.println("1-Search menu");
+        System.out.println("2-Add to database by number");
+        System.out.println("3-Redact by VIN");
+        System.out.println("4-Delete by VIN");
+        System.out.println("0-Back");
+    }
+
+}
